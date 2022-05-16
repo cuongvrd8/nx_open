@@ -77,7 +77,7 @@ public:
     }
 
     static bool isCompatible(
-        const AVCodecID codec, const QSize& resolution, bool /*allowOverlay*/)
+        const AVCodecID codec, const QSize& resolution, bool /*allowOverlay*/, bool /*allowHW*/)
     {
         if (!s_maxResolution.isEmpty()
             && (resolution.width() > s_maxResolution.width()
