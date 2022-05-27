@@ -3000,9 +3000,6 @@ void QnMediaResourceWidget::setAnalyticsFilter(const nx::analytics::db::Filter& 
 
 void QnMediaResourceWidget::updateWatermark()
 {
-    // Ini guard; remove on release. Default watermark is invisible.
-    auto settings = globalSettings()->watermarkSettings();
-
     // First create normal watermark according to current client state.
     auto watermark = context()->watermark();
 
