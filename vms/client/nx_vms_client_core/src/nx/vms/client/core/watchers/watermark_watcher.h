@@ -13,7 +13,7 @@
 namespace nx::vms::client::core {
 
 /** Watches over the watermark parameters/states and provides urls for the images if needed. */
-class NX_VMS_CLIENT_CORE_API WatermarkWatcher:
+class WatermarkWatcher:
     public QObject,
     public QnCommonModuleAware
 {

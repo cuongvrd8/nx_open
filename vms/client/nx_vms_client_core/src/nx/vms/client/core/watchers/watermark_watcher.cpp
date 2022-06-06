@@ -7,6 +7,7 @@
 #include <QtCore/QSize>
 #include <QtQml/QtQml>
 
+#include <api/global_settings.h>
 #include <common/common_module.h>
 #include <core/resource/avi/avi_resource.h>
 #include <core/resource/user_resource.h>
@@ -15,7 +16,6 @@
 #include <core/resource_management/resource_pool.h>
 #include <nx/vms/client/core/media/watermark_image_provider.h>
 #include <nx/vms/client/core/watchers/user_watcher.h>
-#include <nx/vms/common/system_settings.h>
 
 namespace nx::vms::client::core {
 
@@ -53,7 +53,7 @@ WatermarkWatcher::Private::Private(WatermarkWatcher* q):
     connect(userWatcher, &UserWatcher::userChanged, this, &Private::updateUser);
     updateUser();
 
-    connect(q->globalSettings(), &common::SystemSettings::watermarkChanged,
+    connect(q->globalSettings(), &QnGlobalSettings::watermarkChanged,
         this, &Private::updateWatermark);
 }
 

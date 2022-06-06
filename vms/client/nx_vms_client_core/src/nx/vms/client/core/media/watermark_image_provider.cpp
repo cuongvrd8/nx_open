@@ -7,7 +7,6 @@
 
 #include <nx/core/watermark/watermark_images.h>
 #include <nx/fusion/model_functions.h>
-#include <nx/vms/common/system_settings.h>
 
 namespace nx::vms::client::core {
 

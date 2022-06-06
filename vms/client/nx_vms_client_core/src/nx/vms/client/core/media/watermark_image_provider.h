@@ -9,7 +9,7 @@
 namespace nx::vms::client::core {
 
 /** Provides watermark images for the cameras. */
-class NX_VMS_CLIENT_CORE_API WatermarkImageProvider: public QQuickImageProvider
+class WatermarkImageProvider: public QQuickImageProvider
 {
     using base_type = QQuickImageProvider;
 
