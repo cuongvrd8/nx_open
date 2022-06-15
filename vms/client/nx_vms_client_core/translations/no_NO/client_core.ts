@@ -90,21 +90,21 @@
     </message>
     <message>
       <source>Invalid certificate</source>
-      <translation type="unfinished">Invalid certificate</translation>
+      <translation>Ugyldig sertifikat</translation>
     </message>
     <message>
       <source>The server&amp;apos;s certificate was rejected.</source>
-      <translation type="unfinished">The server&amp;apos;s certificate was rejected.</translation>
+      <translation>Serveren&amp;apos; sitt sertifikat ble avvist.</translation>
     </message>
     <message>
       <source>Restore the connection to %1 and try again</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Restore the connection to %1 and try again</translation>
+      <translation>Gjenopprett tilkoblingen til %1 og prøv igjen</translation>
     </message>
     <message>
       <source>%1 user login is temporarily unavailable</source>
       <comment>%1 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">%1 user login is temporarily unavailable</translation>
+      <translation>%1 brukerinnlogging er midlertidig utilgjengelig</translation>
     </message>
     <message>
       <source>Connection timed out</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
       <source>The server is incompatible.</source>
-      <translation type="unfinished">The server is incompatible.</translation>
+      <translation>Serveren er inkompatibel.</translation>
     </message>
     <message>
       <source>Connect to this server from web browser or through desktop client to set it up</source>
@@ -128,7 +128,7 @@
     </message>
     <message>
       <source>Session expired. Re-enter your password.</source>
-      <translation type="unfinished">Session expired. Re-enter your password.</translation>
+      <translation>Sesjon utløpt. Skriv inn passordet ditt på nytt.</translation>
     </message>
     <message>
       <source>Invalid login or password</source>
@@ -203,47 +203,47 @@
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
       <source>Trust this server?</source>
-      <translation type="unfinished">Trust this server?</translation>
+      <translation>Stol på denne serveren?</translation>
     </message>
     <message>
       <source>Cannot verify the identity of %1</source>
-      <translation type="unfinished">Cannot verify the identity of %1</translation>
+      <translation>Kan ikke verifisere identiteten til %1</translation>
     </message>
     <message>
       <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation type="unfinished">Someone may be impersonating %1 to steal your personal information.</translation>
+      <translation>Noen kan utgi seg for å være %1 for å stjele din personlige informasjon.</translation>
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>System:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>Server:</translation>
     </message>
     <message>
       <source>Server ID:</source>
-      <translation type="unfinished">Server ID:</translation>
+      <translation>Server-ID:</translation>
     </message>
     <message>
       <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation type="unfinished">Review the certificate&apos;s details to make sure you are connecting to the correct server.</translation>
+      <translation>Se gjennom sertifikatets detaljer for å forsikre deg om at du kobler til riktig server.</translation>
     </message>
     <message>
       <source>Do not connect to this server unless instructed by your VMS administrator.</source>
-      <translation type="unfinished">Do not connect to this server unless instructed by your VMS administrator.</translation>
+      <translation>Ikke koble til denne serveren uten instruks fra din VMS-administrator.</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>Server-sertifikatet er ugyldig.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</translation>
+      <translation>Du forsøkte å koble til: %1, men serveren presenterte et sertifikat som ikke kan verifiseres automatisk.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server&apos;s certificate has changed.</translation>
+      <translation>Du forsøkte å koble til: %1 men serverens sertifikat har blitt endret.</translation>
     </message>
   </context>
 </TS>

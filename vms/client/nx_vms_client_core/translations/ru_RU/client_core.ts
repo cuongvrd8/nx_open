@@ -215,11 +215,11 @@
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>Система:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>Сервер:</translation>
     </message>
     <message>
       <source>Server ID:</source>
@@ -235,7 +235,7 @@
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>Сертификат сервера недействителен.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>

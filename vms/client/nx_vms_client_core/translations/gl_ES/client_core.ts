@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pt_PT" sourcelanguage="en">
+<TS version="2.1" language="gl_ES" sourcelanguage="en">
   <context>
     <name>QnCloudSystemInformationWatcher</name>
     <message>
       <source>Owner: %1</source>
       <comment>%1 is a user name</comment>
-      <translation>Proprietário: %1</translation>
+      <translation type="unfinished">Owner: %1</translation>
     </message>
     <message>
       <source>Your System</source>
-      <translation>O seu Sistema</translation>
+      <translation type="unfinished">Your System</translation>
     </message>
   </context>
   <context>
     <name>QnDesktopAudioOnlyDataProvider</name>
     <message>
       <source>Sample format of input device %1 is not supported.</source>
-      <translation>O formato de amostra do dispositivo de inputs %1 não é suportado.</translation>
+      <translation type="unfinished">Sample format of input device %1 is not supported.</translation>
     </message>
     <message>
       <source>Primary audio device is not selected.</source>
-      <translation>O dispositivo de áudio principal não está seleccionado.</translation>
+      <translation type="unfinished">Primary audio device is not selected.</translation>
     </message>
   </context>
   <context>
     <name>QnDirectSystemsFinder</name>
     <message>
       <source>System</source>
-      <translation>Sistema</translation>
+      <translation type="unfinished">System</translation>
     </message>
     <message>
       <source>System (%1)</source>
       <comment>%1 is ip and port of system</comment>
-      <translation>Sistema (%1)</translation>
+      <translation type="unfinished">System (%1)</translation>
     </message>
   </context>
   <context>
     <name>QnLocalSystemDescription</name>
     <message>
       <source>New Server</source>
-      <translation>Novo servidor</translation>
+      <translation type="unfinished">New Server</translation>
     </message>
   </context>
   <context>
     <name>QnSystemDescription</name>
     <message>
       <source>Unnamed System</source>
-      <translation>Sistema sem nome</translation>
+      <translation type="unfinished">Unnamed System</translation>
     </message>
   </context>
   <context>
@@ -55,38 +55,38 @@
     <message>
       <source>Owner: %1</source>
       <comment>%1 is a user name</comment>
-      <translation>Proprietário: %1</translation>
+      <translation type="unfinished">Owner: %1</translation>
     </message>
     <message>
       <source>Your System</source>
-      <translation>O seu Sistema</translation>
+      <translation type="unfinished">Your System</translation>
     </message>
     <message>
       <source>New System</source>
-      <translation>Novo Sistema</translation>
+      <translation type="unfinished">New System</translation>
     </message>
   </context>
   <context>
     <name>RemoteConnectionErrorStrings</name>
     <message>
       <source>Client version: %1</source>
-      <translation>Versão do cliente: %1</translation>
+      <translation type="unfinished">Client version: %1</translation>
     </message>
     <message>
       <source>Server version: %1.</source>
-      <translation>Versão do servidor: %1.</translation>
+      <translation type="unfinished">Server version: %1.</translation>
     </message>
     <message>
       <source>Incompatible server</source>
-      <translation>Servidor incompatível</translation>
+      <translation type="unfinished">Incompatible server</translation>
     </message>
     <message>
       <source>Server has a different version:</source>
-      <translation>O Servidor tem uma versão diferente:</translation>
+      <translation type="unfinished">Server has a different version:</translation>
     </message>
     <message>
       <source>You will be asked to restart the client in compatibility mode.</source>
-      <translation>Vai-lhe ser solicitado que reinicie o Cliente em modo compatibilidade.</translation>
+      <translation type="unfinished">You will be asked to restart the client in compatibility mode.</translation>
     </message>
     <message>
       <source>Invalid certificate</source>
@@ -108,7 +108,7 @@
     </message>
     <message>
       <source>Connection timed out</source>
-      <translation>Conexão expirada</translation>
+      <translation type="unfinished">Connection timed out</translation>
     </message>
     <message>
       <source>The server is incompatible.</source>
@@ -116,15 +116,15 @@
     </message>
     <message>
       <source>Connect to this server from web browser or through desktop client to set it up</source>
-      <translation>Conecte-se a este servidor pelo navegador da Web ou pelo cliente de desktop para configurá-lo</translation>
+      <translation type="unfinished">Connect to this server from web browser or through desktop client to set it up</translation>
     </message>
     <message>
       <source>LDAP Server connection timed out</source>
-      <translation>Timeout da ligação ao Servidor LDAP</translation>
+      <translation type="unfinished">LDAP Server connection timed out</translation>
     </message>
     <message>
       <source>LDAP Server connection timed out.</source>
-      <translation>Timeout da ligação ao Servidor LDAP.</translation>
+      <translation type="unfinished">LDAP Server connection timed out.</translation>
     </message>
     <message>
       <source>Session expired. Re-enter your password.</source>
@@ -132,23 +132,23 @@
     </message>
     <message>
       <source>Invalid login or password</source>
-      <translation>Login ou Senha Inválido</translation>
+      <translation type="unfinished">Invalid login or password</translation>
     </message>
     <message>
       <source>Incorrect username or password.</source>
-      <translation>Usuário ou senha incorretos.</translation>
+      <translation type="unfinished">Incorrect username or password.</translation>
     </message>
     <message>
       <source>User is disabled</source>
-      <translation>Usuário desativado</translation>
+      <translation type="unfinished">User is disabled</translation>
     </message>
     <message>
       <source>Too many attempts. Try again in a minute.</source>
-      <translation>Demasiadas tentativas. Tente novamente dentro de um minuto.</translation>
+      <translation type="unfinished">Too many attempts. Try again in a minute.</translation>
     </message>
     <message>
       <source>Compatibility mode for versions lower than %1 is not supported.</source>
-      <translation>Modo de compatibilidade para versões inferiores a %1 não são suportadas.</translation>
+      <translation type="unfinished">Compatibility mode for versions lower than %1 is not supported.</translation>
     </message>
     <message>
       <source>Internal error. Please try again later.</source>
@@ -174,7 +174,7 @@
     </message>
     <message>
       <source>Your session has expired</source>
-      <translation>Sua sessão expirou</translation>
+      <translation type="unfinished">Your session has expired</translation>
     </message>
     <message>
       <source>Please log in to %1 again.</source>
@@ -215,11 +215,11 @@
     </message>
     <message>
       <source>System:</source>
-      <translation>Sistema:</translation>
+      <translation type="unfinished">System:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation>Servidor:</translation>
+      <translation type="unfinished">Server:</translation>
     </message>
     <message>
       <source>Server ID:</source>

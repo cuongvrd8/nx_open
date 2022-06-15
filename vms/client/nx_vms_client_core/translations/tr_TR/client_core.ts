@@ -215,11 +215,11 @@
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>Sistem:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>Sunucu:</translation>
     </message>
     <message>
       <source>Server ID:</source>

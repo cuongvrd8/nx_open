@@ -156,21 +156,21 @@
     </message>
     <message>
       <source>If this error persists, please contact your system administrator.</source>
-      <translation type="unfinished">If this error persists, please contact your system administrator.</translation>
+      <translation>Si este error persiste, comuníquese con el administrador del sistema.</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check your internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check your internet connection or try again later.</translation>
+      <translation>La conexión a %1 aún no está lista. Comprueba tu conexión a Internet o vuelve a intentarlo más tarde.</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</translation>
+      <translation>La conexión a %1 aún no está lista. Compruebe la conexión a Internet del servidor o vuelva a intentarlo más tarde.</translation>
     </message>
     <message>
       <source>Connection to the server could not be established. Try again later.</source>
-      <translation type="unfinished">Connection to the server could not be established. Try again later.</translation>
+      <translation>No se pudo establecer la conexión con el servidor. Vuelva a intentarlo más tarde.</translation>
     </message>
     <message>
       <source>Your session has expired</source>
@@ -179,55 +179,55 @@
     <message>
       <source>Please log in to %1 again.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Please log in to %1 again.</translation>
+      <translation>Inicie sesión en %1 nuevamente.</translation>
     </message>
     <message>
       <source>Log in to %1 to log in to this system with %2 user</source>
       <comment>%1 is the cloud name (like Nx Cloud), %2 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">Log in to %1 to log in to this system with %2 user</translation>
+      <translation>Iniciar sesión en %1 para iniciar sesión en este sistema con el usuario %2</translation>
     </message>
     <message>
       <source>Session duration limit can be changed by a system administrator.</source>
-      <translation type="unfinished">Session duration limit can be changed by a system administrator.</translation>
+      <translation>El límite de duración de la sesión puede ser cambiado por los administradores del sistema.</translation>
     </message>
     <message>
       <source>This user has been disabled by a system administrator.</source>
-      <translation type="unfinished">This user has been disabled by a system administrator.</translation>
+      <translation>Este usuario está deshabilitado por el administrador del sistema.</translation>
     </message>
     <message>
       <source>Too many login attempts. Try again in a minute.</source>
-      <translation type="unfinished">Too many login attempts. Try again in a minute.</translation>
+      <translation>Demasiados intentos de inicio de sesión. Inténtalo más tarde.</translation>
     </message>
   </context>
   <context>
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
       <source>Trust this server?</source>
-      <translation type="unfinished">Trust this server?</translation>
+      <translation>¿Confiar en este servidor?</translation>
     </message>
     <message>
       <source>Cannot verify the identity of %1</source>
-      <translation type="unfinished">Cannot verify the identity of %1</translation>
+      <translation>No se puede verificar la identidad de %1</translation>
     </message>
     <message>
       <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation type="unfinished">Someone may be impersonating %1 to steal your personal information.</translation>
+      <translation>Alguien puede estar haciéndose pasar por %1 para robar su información personal.</translation>
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>Sistema:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>Servidor:</translation>
     </message>
     <message>
       <source>Server ID:</source>
-      <translation type="unfinished">Server ID:</translation>
+      <translation>ID del servidor:</translation>
     </message>
     <message>
       <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation type="unfinished">Review the certificate&apos;s details to make sure you are connecting to the correct server.</translation>
+      <translation>Revise los detalles del certificado para asegurarse de que está conectando al servidor correcto.</translation>
     </message>
     <message>
       <source>Do not connect to this server unless instructed by your VMS administrator.</source>
@@ -235,7 +235,7 @@
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>El certificado del servidor no es válido.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>

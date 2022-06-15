@@ -203,47 +203,47 @@
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
       <source>Trust this server?</source>
-      <translation type="unfinished">Trust this server?</translation>
+      <translation>Confiar neste servidor?</translation>
     </message>
     <message>
       <source>Cannot verify the identity of %1</source>
-      <translation type="unfinished">Cannot verify the identity of %1</translation>
+      <translation>Não é possível verificar a identidade de %1</translation>
     </message>
     <message>
       <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation type="unfinished">Someone may be impersonating %1 to steal your personal information.</translation>
+      <translation>Alguém pode estar se passando por %1 para roubar suas informações pessoais.</translation>
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>Sistema:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>Servidor:</translation>
     </message>
     <message>
       <source>Server ID:</source>
-      <translation type="unfinished">Server ID:</translation>
+      <translation>ID do servidor:</translation>
     </message>
     <message>
       <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation type="unfinished">Review the certificate&apos;s details to make sure you are connecting to the correct server.</translation>
+      <translation>Revise os detalhes do certificado&apos;s para certificar-se de que você está se conectando ao servidor correto.</translation>
     </message>
     <message>
       <source>Do not connect to this server unless instructed by your VMS administrator.</source>
-      <translation type="unfinished">Do not connect to this server unless instructed by your VMS administrator.</translation>
+      <translation>Não se conecte a este servidor a menos que instruído pelo administrador do VMS.</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>O certificado do servidor é inválido.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</translation>
+      <translation>Você tentou se conectar a: %1, mas o servidor apresentou um certificado que não pode ser verificado automaticamente.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server&apos;s certificate has changed.</translation>
+      <translation>Você tentou se conectar a: %1, mas o certificado do Servidor&apos;foi alterado.</translation>
     </message>
   </context>
 </TS>

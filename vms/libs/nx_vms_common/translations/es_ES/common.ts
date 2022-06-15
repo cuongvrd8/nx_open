@@ -56,7 +56,7 @@
     </message>
     <message>
       <source>This user has been disabled by a system administrator.</source>
-      <translation type="unfinished">This user has been disabled by a system administrator.</translation>
+      <translation>Este usuario está deshabilitado por el administrador del sistema.</translation>
     </message>
   </context>
   <context>
@@ -1755,7 +1755,7 @@
     </message>
     <message>
       <source>Server &quot;%1&quot; certificate error</source>
-      <translation>Error de certificado del servidor </translation>
+      <translation>Error de certificado del servidor &quot;%1&quot;</translation>
     </message>
   </context>
   <context>

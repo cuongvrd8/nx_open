@@ -90,21 +90,21 @@
     </message>
     <message>
       <source>Invalid certificate</source>
-      <translation type="unfinished">Invalid certificate</translation>
+      <translation>凭证无效</translation>
     </message>
     <message>
       <source>The server&amp;apos;s certificate was rejected.</source>
-      <translation type="unfinished">The server&amp;apos;s certificate was rejected.</translation>
+      <translation>此服务器凭证不被接受。</translation>
     </message>
     <message>
       <source>Restore the connection to %1 and try again</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Restore the connection to %1 and try again</translation>
+      <translation>恢复与%1的连线并请重试</translation>
     </message>
     <message>
       <source>%1 user login is temporarily unavailable</source>
       <comment>%1 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">%1 user login is temporarily unavailable</translation>
+      <translation>%1 帐户登入暂时无法使用</translation>
     </message>
     <message>
       <source>Connection timed out</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
       <source>The server is incompatible.</source>
-      <translation type="unfinished">The server is incompatible.</translation>
+      <translation>此服务器版本与目前使用的客户端不相容。</translation>
     </message>
     <message>
       <source>Connect to this server from web browser or through desktop client to set it up</source>
@@ -128,7 +128,7 @@
     </message>
     <message>
       <source>Session expired. Re-enter your password.</source>
-      <translation type="unfinished">Session expired. Re-enter your password.</translation>
+      <translation>连线逾时，请重新登录。</translation>
     </message>
     <message>
       <source>Invalid login or password</source>
@@ -152,25 +152,25 @@
     </message>
     <message>
       <source>Internal error. Please try again later.</source>
-      <translation type="unfinished">Internal error. Please try again later.</translation>
+      <translation>发生内部错误，请稍后再尝试连线。</translation>
     </message>
     <message>
       <source>If this error persists, please contact your system administrator.</source>
-      <translation type="unfinished">If this error persists, please contact your system administrator.</translation>
+      <translation>如果此错误持续发生，请联络您的系统管理员。</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check your internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check your internet connection or try again later.</translation>
+      <translation>与 %1 的连线失败，请检查您的网路连线或稍后重试。</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</translation>
+      <translation>与 %1 的连线失败，请检查服务器的网路连线或稍后重试。</translation>
     </message>
     <message>
       <source>Connection to the server could not be established. Try again later.</source>
-      <translation type="unfinished">Connection to the server could not be established. Try again later.</translation>
+      <translation>服务器无法连线，请稍后再试。</translation>
     </message>
     <message>
       <source>Your session has expired</source>
@@ -179,71 +179,71 @@
     <message>
       <source>Please log in to %1 again.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Please log in to %1 again.</translation>
+      <translation>请再次登录到 %1。</translation>
     </message>
     <message>
       <source>Log in to %1 to log in to this system with %2 user</source>
       <comment>%1 is the cloud name (like Nx Cloud), %2 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">Log in to %1 to log in to this system with %2 user</translation>
+      <translation>请使用 %2 使用者帐户登录 %1，来连接此系统</translation>
     </message>
     <message>
       <source>Session duration limit can be changed by a system administrator.</source>
-      <translation type="unfinished">Session duration limit can be changed by a system administrator.</translation>
+      <translation>系统管理员可启用并更改连线时间限制。</translation>
     </message>
     <message>
       <source>This user has been disabled by a system administrator.</source>
-      <translation type="unfinished">This user has been disabled by a system administrator.</translation>
+      <translation>此使用者帐户已被系统管理员停用。</translation>
     </message>
     <message>
       <source>Too many login attempts. Try again in a minute.</source>
-      <translation type="unfinished">Too many login attempts. Try again in a minute.</translation>
+      <translation>登录尝试次数过多，请稍后再试。</translation>
     </message>
   </context>
   <context>
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
       <source>Trust this server?</source>
-      <translation type="unfinished">Trust this server?</translation>
+      <translation>信任此台服务器?</translation>
     </message>
     <message>
       <source>Cannot verify the identity of %1</source>
-      <translation type="unfinished">Cannot verify the identity of %1</translation>
+      <translation>无法验证 %1的身份</translation>
     </message>
     <message>
       <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation type="unfinished">Someone may be impersonating %1 to steal your personal information.</translation>
+      <translation>此服务器有可能被冒充%1来窃取您的隐私资料。</translation>
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>系统:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>服务器:</translation>
     </message>
     <message>
       <source>Server ID:</source>
-      <translation type="unfinished">Server ID:</translation>
+      <translation>服务器 ID:</translation>
     </message>
     <message>
       <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation type="unfinished">Review the certificate&apos;s details to make sure you are connecting to the correct server.</translation>
+      <translation>请检查凭证内容以确保连接到正确的服务器。</translation>
     </message>
     <message>
       <source>Do not connect to this server unless instructed by your VMS administrator.</source>
-      <translation type="unfinished">Do not connect to this server unless instructed by your VMS administrator.</translation>
+      <translation>连接到此服务器之前，请先向您的VMS管理员确认。</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>无效的服务器凭证。</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</translation>
+      <translation>您正尝试连接到：%1 ，但服务器凭证无法自动通过验证。</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server&apos;s certificate has changed.</translation>
+      <translation>您正尝试连接到：%1 ，但服务器凭证&apos;已变更。</translation>
     </message>
   </context>
 </TS>

@@ -90,21 +90,21 @@
     </message>
     <message>
       <source>Invalid certificate</source>
-      <translation type="unfinished">Invalid certificate</translation>
+      <translation>Chứng chỉ không hợp lệ</translation>
     </message>
     <message>
       <source>The server&amp;apos;s certificate was rejected.</source>
-      <translation type="unfinished">The server&amp;apos;s certificate was rejected.</translation>
+      <translation>Chứng chỉ của máy chủ đã bị từ chối.</translation>
     </message>
     <message>
       <source>Restore the connection to %1 and try again</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Restore the connection to %1 and try again</translation>
+      <translation>Khôi phục kết nối với %1 và thử lại</translation>
     </message>
     <message>
       <source>%1 user login is temporarily unavailable</source>
       <comment>%1 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">%1 user login is temporarily unavailable</translation>
+      <translation>%1 người dùng đăng nhập tạm thời không khả dụng</translation>
     </message>
     <message>
       <source>Connection timed out</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
       <source>The server is incompatible.</source>
-      <translation type="unfinished">The server is incompatible.</translation>
+      <translation>Máy chủ không tương thích.</translation>
     </message>
     <message>
       <source>Connect to this server from web browser or through desktop client to set it up</source>
@@ -128,7 +128,7 @@
     </message>
     <message>
       <source>Session expired. Re-enter your password.</source>
-      <translation type="unfinished">Session expired. Re-enter your password.</translation>
+      <translation>Phiên hết hạn. Nhập lại mật khẩu của bạn.</translation>
     </message>
     <message>
       <source>Invalid login or password</source>
@@ -152,25 +152,25 @@
     </message>
     <message>
       <source>Internal error. Please try again later.</source>
-      <translation type="unfinished">Internal error. Please try again later.</translation>
+      <translation>Lỗi bên trong. Vui lòng thử lại sau.</translation>
     </message>
     <message>
       <source>If this error persists, please contact your system administrator.</source>
-      <translation type="unfinished">If this error persists, please contact your system administrator.</translation>
+      <translation>Nếu lỗi này vẫn còn, xin vui lòng liên hệ với quản trị viên hệ thống của bạn.</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check your internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check your internet connection or try again later.</translation>
+      <translation>Kết nối với %1 chưa sẵn sàng. Kiểm tra kết nối mạng hoặc thử lại sau.</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</translation>
+      <translation>Kết nối với %1 chưa sẵn sàng. Kiểm tra kết nối mạng của máy chủ hoặc thử lại sau.</translation>
     </message>
     <message>
       <source>Connection to the server could not be established. Try again later.</source>
-      <translation type="unfinished">Connection to the server could not be established. Try again later.</translation>
+      <translation>Không thể thiết lập kết nối với máy chủ. Thử lại sau.</translation>
     </message>
     <message>
       <source>Your session has expired</source>
@@ -179,71 +179,71 @@
     <message>
       <source>Please log in to %1 again.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Please log in to %1 again.</translation>
+      <translation>Vui lòng đăng nhập lại vào %1.</translation>
     </message>
     <message>
       <source>Log in to %1 to log in to this system with %2 user</source>
       <comment>%1 is the cloud name (like Nx Cloud), %2 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">Log in to %1 to log in to this system with %2 user</translation>
+      <translation>Đăng nhập %1 để đăng nhập vào hệ thống này bằng người dùng %2</translation>
     </message>
     <message>
       <source>Session duration limit can be changed by a system administrator.</source>
-      <translation type="unfinished">Session duration limit can be changed by a system administrator.</translation>
+      <translation>Quản trị viên hệ thống có thể thay đổi giới hạn thời lượng phiên.</translation>
     </message>
     <message>
       <source>This user has been disabled by a system administrator.</source>
-      <translation type="unfinished">This user has been disabled by a system administrator.</translation>
+      <translation>Người dùng này đã bị vô hiệu hóa bởi quản trị viên hệ thống.</translation>
     </message>
     <message>
       <source>Too many login attempts. Try again in a minute.</source>
-      <translation type="unfinished">Too many login attempts. Try again in a minute.</translation>
+      <translation>Quá nhiều lần thử đăng nhập. Hãy thử lại sau một phút.</translation>
     </message>
   </context>
   <context>
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
       <source>Trust this server?</source>
-      <translation type="unfinished">Trust this server?</translation>
+      <translation>Tin tưởng máy chủ này?</translation>
     </message>
     <message>
       <source>Cannot verify the identity of %1</source>
-      <translation type="unfinished">Cannot verify the identity of %1</translation>
+      <translation>Không thể xác minh danh tính của %1</translation>
     </message>
     <message>
       <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation type="unfinished">Someone may be impersonating %1 to steal your personal information.</translation>
+      <translation>Ai đó có thể đang mạo danh %1 để lấy thông tin cá nhân của bạn.</translation>
     </message>
     <message>
       <source>System:</source>
-      <translation type="unfinished">System:</translation>
+      <translation>Hệ thống:</translation>
     </message>
     <message>
       <source>Server:</source>
-      <translation type="unfinished">Server:</translation>
+      <translation>Máy chủ:</translation>
     </message>
     <message>
       <source>Server ID:</source>
-      <translation type="unfinished">Server ID:</translation>
+      <translation>ID máy chủ:</translation>
     </message>
     <message>
       <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation type="unfinished">Review the certificate&apos;s details to make sure you are connecting to the correct server.</translation>
+      <translation>Xem lại các chi tiết của chứng chỉ để đảm bảo rằng bạn đang kết nối với đúng Máy chủ.</translation>
     </message>
     <message>
       <source>Do not connect to this server unless instructed by your VMS administrator.</source>
-      <translation type="unfinished">Do not connect to this server unless instructed by your VMS administrator.</translation>
+      <translation>Không kết nối với Máy chủ này trừ khi được người quản trị VMS của bạn hướng dẫn.</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>Chứng chỉ máy chủ không hợp lệ.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</translation>
+      <translation>Bạn đã cố gắng kết nối với: %1 nhưng Máy chủ xuất trình chứng chỉ không thể tự động xác minh.</translation>
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server&apos;s certificate has changed.</translation>
+      <translation>Bạn đã cố gắng kết nối với: %1 nhưng chứng chỉ Máy chủ đã thay đổi.</translation>
     </message>
   </context>
 </TS>
