@@ -243,7 +243,7 @@
     </message>
     <message>
       <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation type="unfinished">You attempted to connect to: %1 but the Server&apos;s certificate has changed.</translation>
+      <translation>Вы попытались подключиться к: %1, но сертификат Сервера&apos;изменился.</translation>
     </message>
   </context>
 </TS>
