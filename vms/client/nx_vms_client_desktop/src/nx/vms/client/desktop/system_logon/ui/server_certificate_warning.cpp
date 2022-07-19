@@ -10,11 +10,19 @@
 
 #include <nx/network/ssl/certificate.h>
 #include <nx/vms/api/data/module_information.h>
+#include <nx/vms/client/desktop/ui/common/color_theme.h>
 #include <nx/vms/common/html/html.h>
 #include <ui/statistics/modules/controls_statistics_module.h>
 #include <ui/workbench/workbench_context.h>
 
 #include "server_certificate_viewer.h"
+
+namespace {
+
+const QString kCertificateLink = "#certificate";
+const QString kHelpLink = "#help";
+
+} // namespace
 
 namespace nx::vms::client::desktop {
 
@@ -28,8 +36,6 @@ ServerCertificateWarning::ServerCertificateWarning(
     base_type(parent),
     QnWorkbenchContextAware(parent)
 {
-    // Prepare target description text.
-
     // Prepare data.
     const auto icon =
         [reason]()
@@ -49,7 +55,7 @@ ServerCertificateWarning::ServerCertificateWarning(
 
         }();
 
-    const auto header = core::CertificateWarning::header(reason, target.name);
+    const auto header = core::CertificateWarning::header(reason, target);
     const auto details = core::CertificateWarning::details(reason, target, primaryAddress);
     const auto advice = core::CertificateWarning::advice(reason);
 
@@ -58,10 +64,17 @@ ServerCertificateWarning::ServerCertificateWarning(
     setText(header);
     setInformativeText(details);
 
-    // Add this text as a separate label to make a proper spacing.
-    auto additionalText = new QLabel(advice);
-    additionalText->setWordWrap(true);
-    addCustomWidget(additionalText);
+    if (!advice.isEmpty())
+    {
+        auto additionalText = new QLabel(advice);
+        additionalText->setWordWrap(true);
+
+        auto palette = additionalText->palette();
+        palette.setColor(QPalette::Foreground, colorTheme()->color("dark13"));
+        additionalText->setPalette(palette);
+
+        addCustomWidget(additionalText);
+    }
 
     auto layout = findChild<QVBoxLayout*>("verticalLayout");
     if (NX_ASSERT(layout))
@@ -73,42 +86,49 @@ ServerCertificateWarning::ServerCertificateWarning(
             switch (reason)
             {
                 case core::CertificateWarning::Reason::unknownServer:
-                    return "cert_unkn_dialog_" + name;
+                    return "unkn_dialog_" + name;
                 case core::CertificateWarning::Reason::invalidCertificate:
                 case core::CertificateWarning::Reason::serverCertificateChanged:
-                    return "cert_invl_dialog_" + name;
+                    return "invl_dialog_" + name;
             }
             return QString();
         };
-    auto statisticsModule = context()->statisticsModule();
-    statisticsModule->registerClick(statisticsName("open"));
+    auto statistics = context()->statisticsModule();
+    statistics->registerClick(statisticsName("open"));
 
-    // Init server certificate `link`
-    auto link = new QLabel(common::html::localLink(tr("View certificate")));
-    connect(link, &QLabel::linkActivated, this,
-        [=, this]
+    // Init links.
+    connect(this , &QnMessageBox::linkActivated, this,
+        [=, this](const QString& link)
         {
-            auto viewer = new ServerCertificateViewer(
-                target,
-                primaryAddress,
-                certificates,
-                ServerCertificateViewer::Mode::presented,
-                this);
+            if (link == kCertificateLink)
+            {
+                auto viewer = new ServerCertificateViewer(
+                    target,
+                    primaryAddress,
+                    certificates,
+                    ServerCertificateViewer::Mode::presented,
+                    this);
 
-            // Show modal.
-            viewer->open();
-            statisticsModule->registerClick(statisticsName("view_cert"));
+                // Show modal.
+                viewer->open();
+                statistics->registerClick(statisticsName("view_cert"));
+            }
+            else if (link == kHelpLink)
+            {
+                //TODO: #spanasenko Open help page.
+            }
         });
-    addCustomWidget(link);
+
+    bool dialogIsWarning = (reason == core::CertificateWarning::Reason::invalidCertificate
+        || reason == core::CertificateWarning::Reason::serverCertificateChanged);
 
     // Create 'Connect' button.
     auto connectButton = addButton(
-        tr("Connect Anyway"),
+        dialogIsWarning ? tr("Connect Anyway") : tr("Continue"),
         QDialogButtonBox::AcceptRole,
-        Qn::ButtonAccent::Warning);
+        dialogIsWarning ? Qn::ButtonAccent::Warning : Qn::ButtonAccent::Standard);
 
-    if (reason == core::CertificateWarning::Reason::invalidCertificate
-        || reason == core::CertificateWarning::Reason::serverCertificateChanged)
+    if (dialogIsWarning)
     {
         // Create mandatory checkbox for additional safety.
         auto checkbox = new QCheckBox(tr("I trust this server"));
@@ -123,17 +143,11 @@ ServerCertificateWarning::ServerCertificateWarning(
         updateButtonState();
     }
 
-    statisticsModule->registerButton(statisticsName("connect"), connectButton);
+    connect(connectButton, &QPushButton::clicked,
+        statistics, [=] { statistics->registerClick(statisticsName("connect")); });
 
     // Create 'Cancel' button.
     setStandardButtons({QDialogButtonBox::Cancel});
-}
-
-void ServerCertificateWarning::showEvent(QShowEvent *event)
-{
-    // Set focus to 'Cancel' button for some additional safety.
-    button(QDialogButtonBox::Cancel)->setFocus();
-    base_type::showEvent(event);
 }
 
 } // namespace nx::vms::client::desktop
