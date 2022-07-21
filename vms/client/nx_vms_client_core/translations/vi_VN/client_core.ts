@@ -202,48 +202,56 @@
   <context>
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
-      <source>Trust this server?</source>
-      <translation>Tin tưởng máy chủ này?</translation>
-    </message>
-    <message>
       <source>Cannot verify the identity of %1</source>
       <translation>Không thể xác minh danh tính của %1</translation>
-    </message>
-    <message>
-      <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation>Ai đó có thể đang mạo danh %1 để lấy thông tin cá nhân của bạn.</translation>
-    </message>
-    <message>
-      <source>System:</source>
-      <translation>Hệ thống:</translation>
-    </message>
-    <message>
-      <source>Server:</source>
-      <translation>Máy chủ:</translation>
-    </message>
-    <message>
-      <source>Server ID:</source>
-      <translation>ID máy chủ:</translation>
-    </message>
-    <message>
-      <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation>Xem lại các chi tiết của chứng chỉ để đảm bảo rằng bạn đang kết nối với đúng Máy chủ.</translation>
-    </message>
-    <message>
-      <source>Do not connect to this server unless instructed by your VMS administrator.</source>
-      <translation>Không kết nối với Máy chủ này trừ khi được người quản trị VMS của bạn hướng dẫn.</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
       <translation>Chứng chỉ máy chủ không hợp lệ.</translation>
     </message>
     <message>
-      <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>
-      <translation>Bạn đã cố gắng kết nối với: %1 nhưng Máy chủ xuất trình chứng chỉ không thể tự động xác minh.</translation>
+      <source>Connecting to %1 for the first time?</source>
+      <translation type="unfinished">Connecting to %1 for the first time?</translation>
     </message>
     <message>
-      <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation>Bạn đã cố gắng kết nối với: %1 nhưng chứng chỉ Máy chủ đã thay đổi.</translation>
+      <source>certificate details</source>
+      <translation type="unfinished">certificate details</translation>
+    </message>
+    <message>
+      <source>help article</source>
+      <translation type="unfinished">help article</translation>
+    </message>
+    <message>
+      <source>Read this %1 to learn more about certificate validation.</source>
+      <comment>%1 is &lt;help article&gt; link</comment>
+      <translation type="unfinished">Read this %1 to learn more about certificate validation.</translation>
+    </message>
+    <message>
+      <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
+      <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
+      <translation type="unfinished">Review the %1 to ensure you trust the server you are connecting to.%2</translation>
+    </message>
+    <message>
+      <source>the server&apos;s certificate</source>
+      <translation type="unfinished">the server&apos;s certificate</translation>
+    </message>
+    <message>
+      <source>You can view %1 or read this %2 to learn more about the current problem.</source>
+      <comment>%1 is &lt;the server&apos;s certificate&gt; link, %2 is &lt;help article&gt; link</comment>
+      <translation type="unfinished">You can view %1 or read this %2 to learn more about the current problem.</translation>
+    </message>
+    <message>
+      <source>This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</source>
+      <comment>%1 is the system name, %2 are possible extra details</comment>
+      <translation type="unfinished">This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</translation>
+    </message>
+    <message>
+      <source>This message may be shown multiple times when connecting to a multi-server system.</source>
+      <translation type="unfinished">This message may be shown multiple times when connecting to a multi-server system.</translation>
+    </message>
+    <message>
+      <source>To learn more about the current problem view the server&apos;s certificate:</source>
+      <translation type="unfinished">To learn more about the current problem view the server&apos;s certificate:</translation>
     </message>
   </context>
 </TS>

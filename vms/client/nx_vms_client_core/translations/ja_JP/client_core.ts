@@ -202,48 +202,56 @@
   <context>
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
-      <source>Trust this server?</source>
-      <translation>このサーバーを信用しますか？</translation>
-    </message>
-    <message>
       <source>Cannot verify the identity of %1</source>
       <translation>%1 の識別情報を確認できません</translation>
-    </message>
-    <message>
-      <source>Someone may be impersonating %1 to steal your personal information.</source>
-      <translation>誰かがあなたの個人情報を盗むために %1 になりすましている可能性があります。</translation>
-    </message>
-    <message>
-      <source>System:</source>
-      <translation>システム:</translation>
-    </message>
-    <message>
-      <source>Server:</source>
-      <translation>サーバー:</translation>
-    </message>
-    <message>
-      <source>Server ID:</source>
-      <translation>サーバーID:</translation>
-    </message>
-    <message>
-      <source>Review the certificate&apos;s details to make sure you are connecting to the correct server.</source>
-      <translation>証明書の詳細を確認して、正しいサーバーに接続していることを確認してください。</translation>
-    </message>
-    <message>
-      <source>Do not connect to this server unless instructed by your VMS administrator.</source>
-      <translation>VMS管理者の指示がない限り、このサーバーに接続しないでください。</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
       <translation>サーバー証明書が無効です。</translation>
     </message>
     <message>
-      <source>You attempted to connect to: %1 but the Server presented a certificate that is unable to be automatically verified.</source>
-      <translation>%1 に接続しようとしましたが、自動的に検証できない証明書がサーバーによって提示されました。</translation>
+      <source>Connecting to %1 for the first time?</source>
+      <translation>%1 への接続は初めてですか?</translation>
     </message>
     <message>
-      <source>You attempted to connect to: %1 but the Server&apos;s certificate has changed.</source>
-      <translation>%1 への接続を試みましたが、サーバーの証明書が変更されていました。</translation>
+      <source>certificate details</source>
+      <translation>証明書の詳細</translation>
+    </message>
+    <message>
+      <source>help article</source>
+      <translation>ヘルプ記事</translation>
+    </message>
+    <message>
+      <source>Read this %1 to learn more about certificate validation.</source>
+      <comment>%1 is &lt;help article&gt; link</comment>
+      <translation>証明書検証の詳細については、この %1 をご参照ください。</translation>
+    </message>
+    <message>
+      <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
+      <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
+      <translation type="unfinished">Review the %1 to ensure you trust the server you are connecting to.%2</translation>
+    </message>
+    <message>
+      <source>the server&apos;s certificate</source>
+      <translation type="unfinished">the server&apos;s certificate</translation>
+    </message>
+    <message>
+      <source>You can view %1 or read this %2 to learn more about the current problem.</source>
+      <comment>%1 is &lt;the server&apos;s certificate&gt; link, %2 is &lt;help article&gt; link</comment>
+      <translation type="unfinished">You can view %1 or read this %2 to learn more about the current problem.</translation>
+    </message>
+    <message>
+      <source>This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</source>
+      <comment>%1 is the system name, %2 are possible extra details</comment>
+      <translation type="unfinished">This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</translation>
+    </message>
+    <message>
+      <source>This message may be shown multiple times when connecting to a multi-server system.</source>
+      <translation type="unfinished">This message may be shown multiple times when connecting to a multi-server system.</translation>
+    </message>
+    <message>
+      <source>To learn more about the current problem view the server&apos;s certificate:</source>
+      <translation type="unfinished">To learn more about the current problem view the server&apos;s certificate:</translation>
     </message>
   </context>
 </TS>
