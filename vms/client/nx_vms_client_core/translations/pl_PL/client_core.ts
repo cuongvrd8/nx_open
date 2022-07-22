@@ -211,47 +211,47 @@
     </message>
     <message>
       <source>Connecting to %1 for the first time?</source>
-      <translation type="unfinished">Connecting to %1 for the first time?</translation>
+      <translation>Łączenie z %1 po raz pierwszy?</translation>
     </message>
     <message>
       <source>certificate details</source>
-      <translation type="unfinished">certificate details</translation>
+      <translation>szczegóły certyfikatu</translation>
     </message>
     <message>
       <source>help article</source>
-      <translation type="unfinished">help article</translation>
+      <translation>artykuł pomocy</translation>
     </message>
     <message>
       <source>Read this %1 to learn more about certificate validation.</source>
       <comment>%1 is &lt;help article&gt; link</comment>
-      <translation type="unfinished">Read this %1 to learn more about certificate validation.</translation>
+      <translation>Przeczytaj %1 aby dowiedzieć się więcej o weryfikacji certyfikatów.</translation>
     </message>
     <message>
       <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
       <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
-      <translation type="unfinished">Review the %1 to ensure you trust the server you are connecting to.%2</translation>
+      <translation>Sprawdź %1, aby upewnić się, że ufasz serwerowi, z którym się łączysz.%2</translation>
     </message>
     <message>
       <source>the server&apos;s certificate</source>
-      <translation type="unfinished">the server&apos;s certificate</translation>
+      <translation>certyfikat serwera</translation>
     </message>
     <message>
       <source>You can view %1 or read this %2 to learn more about the current problem.</source>
       <comment>%1 is &lt;the server&apos;s certificate&gt; link, %2 is &lt;help article&gt; link</comment>
-      <translation type="unfinished">You can view %1 or read this %2 to learn more about the current problem.</translation>
+      <translation>Możesz wyświetlić %1 lub przeczytać ten %2, aby dowiedzieć się więcej o bieżącym problemie.</translation>
     </message>
     <message>
       <source>This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</source>
       <comment>%1 is the system name, %2 are possible extra details</comment>
-      <translation type="unfinished">This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</translation>
+      <translation>Może to być spowodowane wygaśnięciem certyfikatu serwera lub próbą podszywania się pod %1, aby ukraść Twoje dane osobowe.%2</translation>
     </message>
     <message>
       <source>This message may be shown multiple times when connecting to a multi-server system.</source>
-      <translation type="unfinished">This message may be shown multiple times when connecting to a multi-server system.</translation>
+      <translation>Komunikat ten może być pokazywany wielokrotnie podczas łączenia się z systemem wielu serwerów.</translation>
     </message>
     <message>
       <source>To learn more about the current problem view the server&apos;s certificate:</source>
-      <translation type="unfinished">To learn more about the current problem view the server&apos;s certificate:</translation>
+      <translation>Aby dowiedzieć się więcej o bieżącym problemie, przejrzyj certyfikat serwera:</translation>
     </message>
   </context>
 </TS>

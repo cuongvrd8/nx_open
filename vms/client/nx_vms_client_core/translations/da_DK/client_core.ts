@@ -211,15 +211,15 @@
     </message>
     <message>
       <source>Connecting to %1 for the first time?</source>
-      <translation type="unfinished">Connecting to %1 for the first time?</translation>
+      <translation>Opretter forbindelse til %1 for første gang?</translation>
     </message>
     <message>
       <source>certificate details</source>
-      <translation type="unfinished">certificate details</translation>
+      <translation>Certifikatdetaljer</translation>
     </message>
     <message>
       <source>help article</source>
-      <translation type="unfinished">help article</translation>
+      <translation>hjælpeartikel</translation>
     </message>
     <message>
       <source>Read this %1 to learn more about certificate validation.</source>
@@ -233,7 +233,7 @@
     </message>
     <message>
       <source>the server&apos;s certificate</source>
-      <translation type="unfinished">the server&apos;s certificate</translation>
+      <translation>serverens&apos;s certifikat</translation>
     </message>
     <message>
       <source>You can view %1 or read this %2 to learn more about the current problem.</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
       <source>This message may be shown multiple times when connecting to a multi-server system.</source>
-      <translation type="unfinished">This message may be shown multiple times when connecting to a multi-server system.</translation>
+      <translation>Denne meddelelse vises muligvis flere gange, når der oprettes forbindelse til et multi-serversystem.</translation>
     </message>
     <message>
       <source>To learn more about the current problem view the server&apos;s certificate:</source>

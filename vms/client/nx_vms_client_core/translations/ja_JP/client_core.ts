@@ -229,29 +229,29 @@
     <message>
       <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
       <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
-      <translation type="unfinished">Review the %1 to ensure you trust the server you are connecting to.%2</translation>
+      <translation>%1 を検証して、接続先サーバーが信頼できることを確認してください。%2</translation>
     </message>
     <message>
       <source>the server&apos;s certificate</source>
-      <translation type="unfinished">the server&apos;s certificate</translation>
+      <translation>サーバーの証明書</translation>
     </message>
     <message>
       <source>You can view %1 or read this %2 to learn more about the current problem.</source>
       <comment>%1 is &lt;the server&apos;s certificate&gt; link, %2 is &lt;help article&gt; link</comment>
-      <translation type="unfinished">You can view %1 or read this %2 to learn more about the current problem.</translation>
+      <translation>現在の問題の詳細については、 %1 を表示するか、この %2 をご参照ください。</translation>
     </message>
     <message>
       <source>This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</source>
       <comment>%1 is the system name, %2 are possible extra details</comment>
-      <translation type="unfinished">This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</translation>
+      <translation>原因としては、サーバー証明書の有効期限が切れているか、誰かが %1 になりすまして個人情報を盗もうとしていることが考えられます。 %2</translation>
     </message>
     <message>
       <source>This message may be shown multiple times when connecting to a multi-server system.</source>
-      <translation type="unfinished">This message may be shown multiple times when connecting to a multi-server system.</translation>
+      <translation>このメッセージは、マルチサーバーシステムに接続する際に複数回表示される場合があります。</translation>
     </message>
     <message>
       <source>To learn more about the current problem view the server&apos;s certificate:</source>
-      <translation type="unfinished">To learn more about the current problem view the server&apos;s certificate:</translation>
+      <translation>現在の問題の詳細については、サーバーの証明書をご確認ください:</translation>
     </message>
   </context>
 </TS>

@@ -211,15 +211,15 @@
     </message>
     <message>
       <source>Connecting to %1 for the first time?</source>
-      <translation type="unfinished">Connecting to %1 for the first time?</translation>
+      <translation>กำลังเชื่อมต่อกับ %1 เป็นครั้งแรก?</translation>
     </message>
     <message>
       <source>certificate details</source>
-      <translation type="unfinished">certificate details</translation>
+      <translation>รายละเอียดใบรับรอง</translation>
     </message>
     <message>
       <source>help article</source>
-      <translation type="unfinished">help article</translation>
+      <translation>บทความช่วยเหลือ</translation>
     </message>
     <message>
       <source>Read this %1 to learn more about certificate validation.</source>
