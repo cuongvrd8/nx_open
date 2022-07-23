@@ -211,7 +211,7 @@
     </message>
     <message>
       <source>Connecting to %1 for the first time?</source>
-      <translation>是否第一次連線至 %1?</translation>
+      <translation>首次連線至 %1?</translation>
     </message>
     <message>
       <source>certificate details</source>
@@ -219,7 +219,7 @@
     </message>
     <message>
       <source>help article</source>
-      <translation>幫助文件</translation>
+      <translation>詳細說明文件</translation>
     </message>
     <message>
       <source>Read this %1 to learn more about certificate validation.</source>
@@ -229,7 +229,7 @@
     <message>
       <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
       <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
-      <translation>請檢視憑證 %1 內容，確認欲連線的伺服器為可信任伺服器。%2</translation>
+      <translation>請檢視憑證內容 %1 ，並確認此伺服器為可信任伺服器。%2</translation>
     </message>
     <message>
       <source>the server&apos;s certificate</source>
@@ -243,11 +243,11 @@
     <message>
       <source>This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</source>
       <comment>%1 is the system name, %2 are possible extra details</comment>
-      <translation>這可能是由於伺服器憑證過期或有人試圖冒充 %1 來竊取您的私人訊息。%2</translation>
+      <translation>這可能是由於伺服器憑證過期或有人試圖偽裝為 %1來截取您的個人訊息。%2</translation>
     </message>
     <message>
       <source>This message may be shown multiple times when connecting to a multi-server system.</source>
-      <translation>若連線至多伺服器合併的系統，則此訊息可能會重複出現。</translation>
+      <translation>若連線至多台伺服器合併的系統，則此訊息可能會重複出現。</translation>
     </message>
     <message>
       <source>To learn more about the current problem view the server&apos;s certificate:</source>
