@@ -10,14 +10,14 @@
     </message>
     <message>
       <source>Your System</source>
-      <translation>Ваша система</translation>
+      <translation>Ваша Система</translation>
     </message>
   </context>
   <context>
     <name>QnDesktopAudioOnlyDataProvider</name>
     <message>
       <source>Sample format of input device %1 is not supported.</source>
-      <translation>Формат пристрою введення %1 не підтримується.</translation>
+      <translation>Формат зразку пристрою введення %1 не підтримується.</translation>
     </message>
     <message>
       <source>Primary audio device is not selected.</source>
@@ -47,7 +47,7 @@
     <name>QnSystemDescription</name>
     <message>
       <source>Unnamed System</source>
-      <translation>Безіменна система</translation>
+      <translation>Система без імені</translation>
     </message>
   </context>
   <context>
@@ -59,7 +59,7 @@
     </message>
     <message>
       <source>Your System</source>
-      <translation>Ваша система</translation>
+      <translation>Ваша Система</translation>
     </message>
     <message>
       <source>New System</source>
@@ -70,11 +70,11 @@
     <name>RemoteConnectionErrorStrings</name>
     <message>
       <source>Client version: %1</source>
-      <translation>Версія клієнта: %1</translation>
+      <translation>Версія Клієнта: %1</translation>
     </message>
     <message>
       <source>Server version: %1.</source>
-      <translation>Версія сервера: %1.</translation>
+      <translation>Версія Сервера: %1.</translation>
     </message>
     <message>
       <source>Incompatible server</source>
@@ -86,25 +86,25 @@
     </message>
     <message>
       <source>You will be asked to restart the client in compatibility mode.</source>
-      <translation>Система запитає дозвіл на перезапуск клієнта в режимі сумісності.</translation>
+      <translation>Вам буде запропоновано перезапустити клієнт у режимі сумісності.</translation>
     </message>
     <message>
       <source>Invalid certificate</source>
-      <translation type="unfinished">Invalid certificate</translation>
+      <translation>Недійсний сертифікат</translation>
     </message>
     <message>
       <source>The server&amp;apos;s certificate was rejected.</source>
-      <translation type="unfinished">The server&amp;apos;s certificate was rejected.</translation>
+      <translation>Сертифікат серверу&amp;apos; було відхилено.</translation>
     </message>
     <message>
       <source>Restore the connection to %1 and try again</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Restore the connection to %1 and try again</translation>
+      <translation>Відновити підключення до %1 та спробувати ще раз</translation>
     </message>
     <message>
       <source>%1 user login is temporarily unavailable</source>
       <comment>%1 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">%1 user login is temporarily unavailable</translation>
+      <translation>%1 користувацький вхід тимчасово недоступний</translation>
     </message>
     <message>
       <source>Connection timed out</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
       <source>The server is incompatible.</source>
-      <translation type="unfinished">The server is incompatible.</translation>
+      <translation>Сервер несумісний.</translation>
     </message>
     <message>
       <source>Connect to this server from web browser or through desktop client to set it up</source>
@@ -128,7 +128,7 @@
     </message>
     <message>
       <source>Session expired. Re-enter your password.</source>
-      <translation type="unfinished">Session expired. Re-enter your password.</translation>
+      <translation>Сесія закінчилася. Введіть пароль ще раз.</translation>
     </message>
     <message>
       <source>Invalid login or password</source>
@@ -152,25 +152,25 @@
     </message>
     <message>
       <source>Internal error. Please try again later.</source>
-      <translation type="unfinished">Internal error. Please try again later.</translation>
+      <translation>Внутрішня помилка. Будь-ласка спробуйте пізніше.</translation>
     </message>
     <message>
       <source>If this error persists, please contact your system administrator.</source>
-      <translation type="unfinished">If this error persists, please contact your system administrator.</translation>
+      <translation>Якщо помилка залишається, зверніться до системного адміністратора.</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check your internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check your internet connection or try again later.</translation>
+      <translation>Підключення до %1 ще не готове. Перевірте підключення до Інтернету або повторіть спробу пізніше.</translation>
     </message>
     <message>
       <source>Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Connection to %1 is not ready yet. Check the server’s internet connection or try again later.</translation>
+      <translation>Підключення до %1 ще не готове. Перевірте підключення серверу до Інтернету або повторіть спробу пізніше.</translation>
     </message>
     <message>
       <source>Connection to the server could not be established. Try again later.</source>
-      <translation type="unfinished">Connection to the server could not be established. Try again later.</translation>
+      <translation>Неможливо підключитися до сервера. Повторіть спробу пізніше.</translation>
     </message>
     <message>
       <source>Your session has expired</source>
@@ -179,79 +179,79 @@
     <message>
       <source>Please log in to %1 again.</source>
       <comment>%1 is the cloud name (like Nx Cloud)</comment>
-      <translation type="unfinished">Please log in to %1 again.</translation>
+      <translation>Будь-ласка, увійдіть до %1 знову.</translation>
     </message>
     <message>
       <source>Log in to %1 to log in to this system with %2 user</source>
       <comment>%1 is the cloud name (like Nx Cloud), %2 is the short cloud name (like Cloud)</comment>
-      <translation type="unfinished">Log in to %1 to log in to this system with %2 user</translation>
+      <translation>Увійдіть в систему %1 , щоб увійти в цю систему з %2 користувачем</translation>
     </message>
     <message>
       <source>Session duration limit can be changed by a system administrator.</source>
-      <translation type="unfinished">Session duration limit can be changed by a system administrator.</translation>
+      <translation>Ліміт тривалості сеансу користувача може бути змінений системним адміністратором.</translation>
     </message>
     <message>
       <source>This user has been disabled by a system administrator.</source>
-      <translation type="unfinished">This user has been disabled by a system administrator.</translation>
+      <translation>Цей користувач був деактивований системним адміністратором.</translation>
     </message>
     <message>
       <source>Too many login attempts. Try again in a minute.</source>
-      <translation type="unfinished">Too many login attempts. Try again in a minute.</translation>
+      <translation>Забагато спроб увiйти в систему. Повторіть через хвилину.</translation>
     </message>
   </context>
   <context>
     <name>nx::vms::client::core::CertificateWarning</name>
     <message>
       <source>Cannot verify the identity of %1</source>
-      <translation type="unfinished">Cannot verify the identity of %1</translation>
+      <translation>Не можливо перевірити справжність %1</translation>
     </message>
     <message>
       <source>Server certificate is invalid.</source>
-      <translation type="unfinished">Server certificate is invalid.</translation>
+      <translation>Сертифікат сервера недійсний.</translation>
     </message>
     <message>
       <source>Connecting to %1 for the first time?</source>
-      <translation type="unfinished">Connecting to %1 for the first time?</translation>
+      <translation>З’єднання з %1 вперше?</translation>
     </message>
     <message>
       <source>certificate details</source>
-      <translation type="unfinished">certificate details</translation>
+      <translation>деталі сертифікату</translation>
     </message>
     <message>
       <source>help article</source>
-      <translation type="unfinished">help article</translation>
+      <translation>стаття з довідки</translation>
     </message>
     <message>
       <source>Read this %1 to learn more about certificate validation.</source>
       <comment>%1 is &lt;help article&gt; link</comment>
-      <translation type="unfinished">Read this %1 to learn more about certificate validation.</translation>
+      <translation>Прочитайте цей матеріал %1, щоб дізнатися більше про перевірку сертифікату.</translation>
     </message>
     <message>
       <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
       <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
-      <translation type="unfinished">Review the %1 to ensure you trust the server you are connecting to.%2</translation>
+      <translation>Зробити огляд %1 , щоб переконатися, що ви довіряєте серверу, до якого підключаєтесь.%2</translation>
     </message>
     <message>
       <source>the server&apos;s certificate</source>
-      <translation type="unfinished">the server&apos;s certificate</translation>
+      <translation>сертифікат серверу&apos;</translation>
     </message>
     <message>
       <source>You can view %1 or read this %2 to learn more about the current problem.</source>
       <comment>%1 is &lt;the server&apos;s certificate&gt; link, %2 is &lt;help article&gt; link</comment>
-      <translation type="unfinished">You can view %1 or read this %2 to learn more about the current problem.</translation>
+      <translation>Ви можете зробити огляд %1 або прочитати це %2 , щоб дізнатися більше про поточну проблему.</translation>
     </message>
     <message>
       <source>This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</source>
       <comment>%1 is the system name, %2 are possible extra details</comment>
-      <translation type="unfinished">This might be due to an expired server certificate or someone trying to impersonate %1 to steal your personal information.%2</translation>
+      <translation>Це може бути пов’язано з простроченим сертифікатом сервера або тим, що хтось намагається видати себе за %1, щоб викрасти вашу особисту інформацію.%2</translation>
     </message>
     <message>
       <source>This message may be shown multiple times when connecting to a multi-server system.</source>
-      <translation type="unfinished">This message may be shown multiple times when connecting to a multi-server system.</translation>
+      <translation>Це повідомлення може відображатися кілька разів під час підключення до багатосерверної системи.</translation>
     </message>
     <message>
       <source>To learn more about the current problem view the server&apos;s certificate:</source>
-      <translation type="unfinished">To learn more about the current problem view the server&apos;s certificate:</translation>
+      <translation>Щоб дізнатися більше про поточну проблему, перегляньте сертифікат сервера&apos;:</translation>
     </message>
   </context>
 </TS>
