@@ -211,7 +211,7 @@
     </message>
     <message>
       <source>Connecting to %1 for the first time?</source>
-      <translation>Łączenie z %1 po raz pierwszy?</translation>
+      <translation>Łączysz się z %1 po raz pierwszy?</translation>
     </message>
     <message>
       <source>certificate details</source>
