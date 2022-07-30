@@ -229,7 +229,7 @@
     <message>
       <source>Review the %1 to ensure you trust the server you are connecting to.%2</source>
       <comment>%1 is &lt;certificate details&gt; link, %2 are possible extra details</comment>
-      <translation>%1 を検証して、接続先サーバーが信頼できることを確認してください。%2</translation>
+      <translation>%1 をご確認のうえ、接続先サーバーが信頼できることをお確かめください。%2</translation>
     </message>
     <message>
       <source>the server&apos;s certificate</source>
