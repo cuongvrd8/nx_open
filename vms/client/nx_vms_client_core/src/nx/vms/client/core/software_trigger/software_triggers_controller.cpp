@@ -96,9 +96,8 @@ bool SoftwareTriggersController::Private::setTriggerState(
     if (state != nx::vms::api::EventState::undefined)
         params.insert("state", nx::reflect::toString(state));
 
-    orderedRequestsHelper.getJsonResult(q->connectedServerApi(),
-        "/api/createEvent", params, callback, QThread::currentThread());
-    return true;
+    return orderedRequestsHelper.getJsonResult(q->connectedServerApi(), "/api/createEvent", params,
+        callback, QThread::currentThread());
 }
 
 //--------------------------------------------------------------------------------------------------

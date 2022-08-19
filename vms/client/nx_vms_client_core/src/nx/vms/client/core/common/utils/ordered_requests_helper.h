@@ -18,12 +18,12 @@ public:
     OrderedRequestsHelper(QObject* parent = nullptr);
     ~OrderedRequestsHelper();
 
-    void getJsonResult(
+    bool getJsonResult(
         const rest::ServerConnectionPtr& connection,
         const QString& action,
         const nx::network::rest::Params& params,
         rest::JsonResultCallback&& callback,
-        QThread* targetThread = nullptr);
+        QThread* thread = nullptr);
 
 private:
     struct Private;
