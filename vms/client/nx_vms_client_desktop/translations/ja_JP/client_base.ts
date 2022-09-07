@@ -369,7 +369,7 @@
     </message>
     <message>
       <source>Monitor in New Tab</source>
-      <translation>新規タブを開く</translation>
+      <translation>モニターを新規タブで開く</translation>
     </message>
     <message>
       <source>Open in Alarm Layout</source>
@@ -381,7 +381,7 @@
     </message>
     <message>
       <source>Monitor in New Window</source>
-      <translation>新規ウィンドウを開く</translation>
+      <translation>モニターを新規ウィンドウで開く</translation>
     </message>
     <message>
       <source>Open Video Wall</source>
@@ -2738,7 +2738,7 @@ to %1</source>
     </message>
     <message>
       <source>Invalid login or password.</source>
-      <translation>ログインIDまたはパスワードが無効です</translation>
+      <translation>ユーザ名またはパスワードが無効です</translation>
     </message>
     <message>
       <source>Requested operation is not allowed with provided credentials.</source>
@@ -10552,7 +10552,7 @@ You can view %2 or read this %3 to learn more about the current problem.</source
     </message>
     <message>
       <source>Major issues have been fixed. Update is strongly recommended.</source>
-      <translation>主要な問題が修正されました　更新を強く推奨します</translation>
+      <translation>主要な問題が修正されました。更新を強くお勧めします。</translation>
     </message>
     <message>
       <source>Update...</source>
